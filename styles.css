@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#game {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: #fff;
+}
+
+#card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+#card div {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    background-color: #eaeaea;
+}
